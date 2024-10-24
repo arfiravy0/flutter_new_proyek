@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Login/Register Flutter',
       theme: ThemeData(
-        primarySwatch: Colors.blue
+        primarySwatch: Colors.purple,
       ),
       initialRoute: '/',
       routes: {
