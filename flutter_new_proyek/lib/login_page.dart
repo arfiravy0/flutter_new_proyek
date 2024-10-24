@@ -18,7 +18,7 @@ class _LoginPageState extends State<LoginPage> {
     return Scaffold(
         appBar: AppBar(
           title: Text('Login'),
-          backgroundColor: Colors.blueAccent,
+          backgroundColor: const Color.fromARGB(255, 215, 106, 239),
         ),
 
         //body
@@ -29,7 +29,7 @@ class _LoginPageState extends State<LoginPage> {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                Icon(Icons.person, size: 100, color: Colors.blueAccent),
+                Icon(Icons.person, size: 100, color: const Color.fromARGB(255, 209, 82, 224)),
                 SizedBox(height: 20),
                 //kolom email
                 TextFormField(

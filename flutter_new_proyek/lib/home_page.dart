@@ -12,7 +12,7 @@ class HomePage extends StatelessWidget {
         title: Text('Home',
         style: TextStyle(color: Colors.white),
         ),
-        backgroundColor: const Color.fromARGB(255, 236, 147, 213),
+        backgroundColor: const Color.fromARGB(255, 195, 84, 215),
       ),
       body: Center(
         child: Column(
@@ -21,7 +21,7 @@ class HomePage extends StatelessWidget {
             Icon(
               Icons.person,
               size: 100,
-              color: const Color.fromARGB(255, 232, 154, 239),
+              color: const Color.fromARGB(255, 217, 124, 248),
             ),
             SizedBox(
               height: 20,

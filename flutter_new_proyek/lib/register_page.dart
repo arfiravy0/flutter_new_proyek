@@ -28,7 +28,7 @@ class _RegisterPageState extends State<RegisterPage> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Icon(Icons.person, size: 100, color: const Color.fromARGB(255, 243, 151, 214)),
+              Icon(Icons.person, size: 100, color: const Color.fromARGB(255, 207, 120, 234)),
               TextFormField(
                 decoration: InputDecoration(
                   labelText: 'Nama Lengkap',
